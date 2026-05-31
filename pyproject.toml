@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "capr-bedrock"
+version = "0.1.0"
+description = "CAPR: Chain-of-Thought Augmented Prompt Refinement – Amazon Bedrock"
+authors = ["Group 04 <group04@cdu.edu.au>"]
+readme = "README.md"
+packages = [{ include = "capr", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.34.0"
+botocore = "^1.34.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

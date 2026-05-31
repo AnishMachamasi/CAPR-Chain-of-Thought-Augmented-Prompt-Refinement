@@ -1,0 +1,72 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+__pycache__/config.cpython-311.pyc
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── AWS credentials — NEVER commit these ─────────────────────────────────────
+.aws/
+credentials
+aws_credentials.json
+*.pem
+*.key
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+config.local.py
+
+# ── Results & outputs (can be regenerated) ───────────────────────────────────
+*.json
+
+# ── Jupyter Notebooks checkpoints ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.exe
+*.zip
+*.tar.gz
